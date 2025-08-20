@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Product Management Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Product Management Tests">
+        <classes>
+            <class name="tests.ProductManagement.AllProductsAndProductDetailPageTest"/>
+        </classes>
+    </test>
+</suite>

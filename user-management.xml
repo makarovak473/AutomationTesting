@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="User Management Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="User Management Tests">
+        <classes>
+            <class name="tests.UserManagement.LoginWithCorrectEmailAndPasswordTest"/>
+            <class name="tests.UserManagement.RegisterUserWithExistingEmailTest"/>
+            <class name="tests.UserManagement.LoginWithWrongCredentialsTest"/>
+            <class name="tests.UserManagement.LogoutUserTest"/>
+            <class name="tests.UserManagement.SignupAndDeleteTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,21 @@
+{
+  "name" : "Radu",
+  "email" : "cevatest@test.to",
+  "title" : "Mr",
+  "password" : "12345",
+  "day" : "10",
+  "month" : "5",
+  "year" : "1990",
+  "news" : true,
+  "offer" : true,
+  "firstName" : "John",
+  "lastName" : "Doe",
+  "company" : "QA Company",
+  "address1" : "Street Nr.1",
+  "address2" : "Apt. 5",
+  "country" : "Canada",
+  "state" : "Ontario",
+  "city" : "Toronto",
+  "zipCode" : "M1A1A1",
+  "mobileNumber" : "+123456789"
+}
