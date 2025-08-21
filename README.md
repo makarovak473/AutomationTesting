@@ -28,6 +28,8 @@ Creare cont cu email existent
 
 Logout
 
+
+
 📊 Rapoarte Allure
 Generare și vizualizare raport:
 
