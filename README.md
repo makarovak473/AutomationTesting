@@ -18,15 +18,25 @@ Framework-ul implementează design pattern-ul **Page Object Model (POM)** pentru
 
 ## 📂 Structura proiectului
 src
+
 ├── main
+
 │ └── java
+
 │ ├── models # modele pentru date (ex: Credentials)
+
 │ ├── pages # clase Page Object pentru fiecare pagină
+
 │ └── utils # utilitare (ex: DriverFactory)
+
 └── test
+
 └── java
+
 ├── tests # clasele de test
+
 └── utils # TestListener (pentru screenshot-uri la fail)
+
 
 📝 Exemple de Teste
 
